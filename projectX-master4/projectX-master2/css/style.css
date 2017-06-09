@@ -419,3 +419,109 @@ section .advantages:last-child {
 	position: relative;
 	vertical-align: top;
 }
+
+.logotypes:first-child {
+    margin-left: 0;
+}
+
+.logotypes:last-child {
+    margin-right: 0;
+}
+
+.logotypes::after {
+    content: "";
+    height: 52px;
+    width: 2px;
+	position: absolute;
+    background-color: #eeeeee;
+	top: 8px;
+	left: 253px;
+}
+
+.logotypes:last-child:after {
+    display: none;
+}
+
+.logo-1 {
+	background-image: url(../img/sprites.png);
+	background-position: 0 -200px;
+	width: 199px;
+	height: 68px; 
+}
+
+.logo-1:hover {
+	background-image: url(../img/sprites.png);
+	background-position: 0 -100px ;
+	width: 199px;
+	height: 68px;
+}
+
+.logo-1:active {
+	background-image: url(../img/sprites.png);
+	background-position: 0 -300px;
+	width: 199px;
+	height: 68px; 
+}
+
+.logo-2 {
+	background-image: url(../img/sprites.png);
+	background-position: -225px -200px;
+	width: 209px;
+	height: 87px; 
+}
+
+.logo-2:hover {
+	background-image: url(../img/sprites.png);
+	background-position: -225px -100px;
+	width: 209px;
+	height: 90px; 
+}
+
+.logo-2:active {
+	background-image: url(../img/sprites.png);
+	background-position: -225px -300px;
+	width: 209px;
+	height: 87px; 
+}
+
+.logo-3 {
+	background-image: url(../img/sprites.png);
+	background-position: -450px -200px;
+	width: 185px;
+	height: 52px; 
+}
+
+.logo-3:hover {
+	background-image: url(../img/sprites.png);
+	background-position: -450px -101px;
+	width: 185px;
+	height: 52px; 
+}
+
+.logo-3:active {
+	background-image: url(../img/sprites.png);
+	background-position: 0 -400px;
+	width: 185px;
+	height: 52px; 
+}
+
+.logo-4 {
+	background-image: url(../img/sprites.png);
+	background-position: -542px -262px;
+	width: 173px;
+	height: 84px; 
+}
+
+.logo-4:hover {
+	background-image: url(../img/sprites.png);
+	background-position: -542px 0;
+	width: 173px;
+	height: 84px; 
+}
+
+.logo-4:active {
+	background-image: url(../img/sprites.png);
+	background-position: -542px -350px;
+	width: 173px;
+	height: 84px; 
+}
