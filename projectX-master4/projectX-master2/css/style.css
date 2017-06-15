@@ -26,7 +26,8 @@ section {
 }
 
 footer {
-
+	padding: 69px 140px;
+	background-color: #ffffff;
 }
 
 a {
@@ -525,3 +526,10 @@ section .advantages:last-child {
 	width: 173px;
 	height: 84px; 
 }
+
+.map {
+	padding-top: 80px;
+	min-height: 416px;
+
+}
+
