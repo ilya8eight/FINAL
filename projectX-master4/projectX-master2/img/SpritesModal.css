@@ -1,0 +1,22 @@
+.close-cross.png-copy, .close-cross, .close-cross.png-copy 2{
+	background: url(sprites.png) no-repeat;
+}
+
+.close-cross.png-copy{
+	background-position: 0 0;
+	width: 21px;
+	height: 21px;
+}
+
+.close-cross{
+	background-position: -26px 0;
+	width: 21px;
+	height: 21px;
+}
+
+.close-cross.png-copy 2{
+	background-position: -52px 0;
+	width: 21px;
+	height: 21px;
+}
+

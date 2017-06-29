@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8" >
-  <title>Maket #2</title>
+  <title>nerd</title>
   <link rel="stylesheet" href="css/style.css">
-   <!--работа с макетом(#2)-->
+   <!--работа с NERDS(#2)-->
 </head>
 <body>
     <header>
@@ -157,9 +157,53 @@
 					</div>
 				</div>
 			</section>
-  			<div class="map">
 			</div>
-		</div>
+			<div class="MapContainer">
+				<address class="info">
+					<div class="text_container">
+					<h4>NЁRDS DESIGN STUDIO</h4>
+                <p>191186, Санкт-Петербург,
+                    ул. Б. Конюшенная, д. 19/8</p>
+                <p>тел. +7 (812) 275-75-75</p>
+                <button class="button--red" type="button">напишите нам</button>
+					</div>
+				</address>
+  			<div id="map">
+			  </div>
+				<div class="modal">
+                <div class="modal_top">
+                    <h4>Напишите нам</h4>
+                    <button type="button" class="exit"></button>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="name_modal">
+                    <h4>Ваше имя:</h4>
+                    <input class="name-field" type="text" placeholder="Представьтесь, пожалуйста" required>
+                </div>
+                <div class="email_modal">
+                    <h4>Ваш e-mail:</h4>
+                    <input class="email-field" type="text" placeholder="Представьтесь, пожалуйста" required>
+                </div>
+                <div class="letter_modal">
+                    <h4>Текст письма:</h4>
+                    <textarea class="text-field" placeholder="В свободной форме"></textarea>
+                    <button class="send --red" type="submit">отправить</button>
+                </div>
+                <div class="alert">
+                    <h4>Внимание!</h4>
+                    <p class="alert-p"></p>
+                    <button class="war-ok" type="button">Окей</button>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="success-modal">
+                    <h4>Ваше сообщение успешно отправлено!</h4>
+                    <button class="suc-ok" type="button">Окей</button>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+			</div>
+		
 	</main>
 	<footer>
 		<div class="wrapper">
@@ -263,5 +307,10 @@
     <p>
     </p>
   </footer></-->
+  <script src="js/script.js">
+	</script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2ponO_rJG96cnekf0i48mI09YkJadywI&callback=initMap">
+  </script>
 </body>
 </html>
