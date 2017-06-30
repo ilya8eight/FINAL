@@ -13,3 +13,24 @@ function initMap() {
 	  }
   });
 }
+
+var link = document.querySelector(".link");
+var modal_window = document.querySelector(".modal_window");
+var name_field = document.querySelector('.name-field');
+var email_field = document.querySelector('.email-field');
+var text_field = document.querySelector('.text-field');
+var close = document.querySelector(".close");
+
+link.addEventListener ('click', function() {
+    modal_window.classList.toggle('modal_display');
+    name_field.focus();
+    console.log("Открытие модалки");
+});
+
+close.addEventListener('click', function () {
+    modal_window.classList.remove('modal_display');
+    name_field.value = '';
+    email_field.value = '';
+    text_field.value = '';
+});
+
